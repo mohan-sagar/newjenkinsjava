@@ -31,6 +31,7 @@ pipeline{
             steps{
                 echo "deployeed the main jenkinsfile"
             }
+        }
         stage("produ"){
             steps{
                 echo "convert to the production"
