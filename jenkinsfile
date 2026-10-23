@@ -31,7 +31,7 @@ pipeline{
             steps{
                 echo "deploying the application"
             }
-        stage("production"){
+        stage("produ"){
             steps{
                 echo "convert to the production"
             }
